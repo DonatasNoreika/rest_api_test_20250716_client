@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block title %}Task{% endblock %}
+{% block content %}
+<form action="" method="post">
+  <div class="mb-3 mt-3">
+    <label for="title" class="form-label">Title:</label>
+    <input type="text" class="form-control" id="title" placeholder="Enter title" name="title">
+  </div>
+  <div class="form-check mb-3">
+<!--    <label class="form-check-label">-->
+<!--      <input class="form-check-input" type="checkbox" name="done"> Done-->
+<!--    </label>-->
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+{% endblock %}
